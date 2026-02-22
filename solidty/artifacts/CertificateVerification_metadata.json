@@ -1,0 +1,160 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_certId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_studentName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_course",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_issuer",
+						"type": "string"
+					}
+				],
+				"name": "addCertificate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "certificates",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "studentName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "course",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "issuer",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isValid",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_certId",
+						"type": "string"
+					}
+				],
+				"name": "verifyCertificate",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Certificate.sol": "CertificateVerification"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Certificate.sol": {
+			"keccak256": "0x897f4834d8a616c01e1919761992a16a345e9c389aa9de5d6f088384bae38df8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6972e9c62b8b44364262004310826796b82cc19ee5ea718e156c7ef4b4161783",
+				"dweb:/ipfs/QmPqjAQj3n4sAiXoF8G1hrhReofWpsgDZBatrbYXFVNBzC"
+			]
+		}
+	},
+	"version": 1
+}
